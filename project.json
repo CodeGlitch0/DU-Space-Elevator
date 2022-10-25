@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "fmtVersion": 3
+  },
+  "name": "space-elevator",
+  "description": "A space elevator implementation for Dual Universe",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "main": {
+      "name": "main",
+      "type": "control",
+      "slots": {}
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false
+    },
+    "production": {
+      "name": "production",
+      "handleErrors": true,
+      "minify": true
+    }
+  }
+}
